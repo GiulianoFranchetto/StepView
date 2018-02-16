@@ -4,6 +4,7 @@
         <attr name="selectedCircleColor" format="color" />
         <attr name="selectedCircleRadius" format="dimension" />
         <attr name="selectedTextColor" format="color" />
+        <attr name="errorCircleColor" format="color" />
         <attr name="selectedStepNumberColor" format="color" />
         <attr name="stepNumberTextSize" format="dimension" />
         <attr name="doneStepMarkColor" format="color" />
