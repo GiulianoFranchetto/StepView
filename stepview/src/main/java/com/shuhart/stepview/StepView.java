@@ -526,10 +526,10 @@ public class StepView extends View {
 
 			if (state == ANIMATE_STEP_TRANSITION && step == nextAnimatedStep && nextAnimatedStep < currentStep) {
 				paint.setColor(selectedTextColor);
-				int alpha = Math.max(Color.alpha(doneTextColor), (int) (animatedFraction * 255));
+				int alpha = Math.max(Color.alpha(errorCircleColor), (int) (animatedFraction * 255));
 				paint.setAlpha(alpha);
 			} else {
-				paint.setColor(doneTextColor);
+				paint.setColor(errorCircleColor);
 			}
 			paint.setTextSize(textSize);
 			drawText(canvas, text, circleCenterX, textY, paint);
